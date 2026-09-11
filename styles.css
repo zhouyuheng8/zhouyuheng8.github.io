@@ -104,6 +104,9 @@ main { min-width: 0; }
 .research-list { border-top: 1px solid var(--line); }
 .research-list article { display: grid; grid-template-columns: 135px 1fr; gap: 22px; padding: 19px 0; border-bottom: 1px solid var(--line); }
 .research-type { align-self: start; color: var(--red); font-size: 10px; font-weight: 700; }
+.research-badges { display:flex; flex-wrap:wrap; gap:6px; margin-top:10px; }
+.research-badges a { display:inline-flex; align-items:center; padding:4px 9px; border:1px solid var(--line); border-radius:999px; color:var(--ink); background:var(--paper); font-size:10px; font-weight:700; text-decoration:none; }
+.research-badges a:hover { border-color:var(--teal); color:var(--teal); }
 .research-list h3 { margin: 0 0 6px; font: 600 18px/1.45 var(--serif); }
 .research-list p { margin: 0; color: var(--muted); font-size: 12px; }
 .award-summary { display: grid; grid-template-columns: 150px 180px 1fr; align-items: center; border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
