@@ -8,7 +8,7 @@ function applyLanguage(nextLanguage) {
   language = nextLanguage;
   document.documentElement.lang = language === 'cn' ? 'zh-CN' : 'en';
   translatedElements.forEach((element) => {
-    element.textContent = element.dataset[language];
+    element.innerHTML = element.dataset[language];
   });
   languageButton.innerHTML = language === 'cn'
     ? '<span class="lang-active">中</span><span>EN</span>'
