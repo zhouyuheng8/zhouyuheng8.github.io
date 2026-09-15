@@ -98,6 +98,8 @@ main { min-width: 0; }
 .project-copy h3 { margin: 6px 0 8px; font: 700 22px/1.25 var(--serif); }
 .project-copy > p:not(.project-kicker) { margin: 0; color: #555a60; font-size: 12px; }
 .text-link { display: inline-flex; align-items: center; gap: 6px; margin-top: auto; padding-top: 15px; color: var(--teal); font-size: 12px; font-weight: 700; text-decoration: none; }
+.project-links { display: flex; align-items: center; gap: 16px; margin-top: auto; }
+.project-links .text-link { margin-top: 0; }
 .text-link svg { width: 15px; transition: transform .2s ease; }
 .text-link:hover svg { transform: translate(2px, -2px); }
 .project-visual { position: relative; display: flex; flex-direction: column; justify-content: space-between; padding: 22px; overflow: hidden; }
