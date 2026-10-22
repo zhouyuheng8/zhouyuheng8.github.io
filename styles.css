@@ -77,6 +77,12 @@ main { min-width: 0; }
 .update-list li { display: grid; grid-template-columns: 180px 1fr; gap: 25px; padding: 17px 0; border-top: 1px solid var(--line); }
 .update-list li:last-child { border-bottom: 1px solid var(--line); }
 .update-list time { color: var(--teal); font-size: 12px; font-weight: 700; }
+.update-meta { display: flex; align-items: flex-start; gap: 12px; }
+.update-meta time { flex-shrink: 0; padding-top: 3px; }
+.update-media { display: flex; flex-direction: column; gap: 7px; }
+.media-link { display: inline-flex; align-items: center; gap: 5px; color: #44494f; font-size: 11px; line-height: 20px; text-decoration: none; }
+.media-link img { width: 20px; height: 20px; object-fit: contain; flex-shrink: 0; }
+.media-link:hover { color: var(--teal); text-decoration: underline; }
 .update-list p { margin: 0; color: #44494f; font-size: 14px; }
 
 .timeline-item { display: grid; grid-template-columns: 190px 1fr; gap: 30px; padding: 23px 0 28px; border-top: 1px solid var(--line); }
