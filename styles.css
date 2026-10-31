@@ -91,6 +91,7 @@ main { min-width: 0; }
 .timeline-meta time { color: var(--red); font-size: 12px; font-weight: 700; }
 .timeline-meta span { color: var(--muted); font-size: 12px; display:block; max-width:180px; line-height:1.45; }
 .timeline-meta .company-name, .timeline-meta .company-dept { display:block; }
+.company-logo { width: 150px; height: 36px; object-fit: contain; object-position: left center; align-self: flex-start; margin: 0 0 7px; }
 .timeline-item h3 { margin: -5px 0 10px; font: 700 23px/1.35 var(--serif); }
 .timeline-item p { margin: 0 0 16px; color: #4c5157; font-size: 14px; }
 
